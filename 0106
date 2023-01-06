@@ -1,0 +1,71 @@
+#주석=메모
+#변수=상자
+# a=3
+# b=4-7
+# c=a+b
+# a=a+1#a+=1
+
+
+
+#계산
+#+,-,*,/
+# %:나머지 연산자
+# //:몫 연산자
+#**:제곱 연산자
+#출력
+#문자열:"",''로 표현
+# print("hello")
+# welcome="python"
+# print(welcome)
+#  문자열 계산
+
+# a="abcd"
+# b="efg"
+# c=a+b
+# print(c)
+
+
+#문자열과 정수형의 계산
+# print("abc"*10)
+
+#출력 함수
+# print(출력할 내용)
+# print(5/2)
+# print(5%2)
+# print(5//2)
+# print(4**3)
+#자료형
+#정수형 :int
+# 실수형 :float
+# 문자열 :str
+# bool :bool
+# 자료형을 알려주는 함수
+#type(값)
+# print(type(17))
+# print(type(3.1))
+# print(type('hello'))
+# print(type(True))
+
+#문제
+#변수 a,b를 만든다.
+# a=3
+# b=10
+# c=a
+# a=b
+# b=c
+
+# print(a)
+# print(b)
+
+
+#문제
+#abc 변수 3개
+a=3
+b=6
+c=9
+d=a
+a=c
+e=b
+b=d
+c=e
+print(a,b,c)
