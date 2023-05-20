@@ -1,5 +1,6 @@
 # python
 #9017-크로스 컨트리
+#9017-크로스 컨트리
 t=int(input())
 c=0
 
@@ -9,7 +10,8 @@ for i in range(t):
     p = []
     a = []
     e = []
-
+    z=0
+    o=[]
     for u in d:
         p.append(u)
 
@@ -28,5 +30,10 @@ for i in range(t):
         while str(x) in p:
             p.remove(str(x))
             print(p)
+    for m in range(len(p)):
+        z+=1
+        k={p[m]:z}
+        o.append(k)
+    print(o)
+    # for y in range(len(a)):
 
-    for y in range(len(a)):
