@@ -10,11 +10,14 @@ for i in range(t):
     z=0
     o=[]
     n1=[]
-    n2=0
+    n2=[]
     n3=0
     n4=0
+    g1=[]
+    li=[]
     for u in d:
         p.append(u)
+
 
     for i in range(1,int(max(d))+1):
         n1.append(i)
@@ -42,18 +45,32 @@ for i in range(t):
         else:
             continue
     print(1, n1)
-    k = {}
-    print(p)
+    k={}
+    for t1 in range(len(n1)):
+        k[n1[t1]] = 0
+    print("k",k)
+    li=p
     for m in range(len(p)):
+
         z+=1
-        if p[m] in k:
-            k[p[m]] += z
+        k[n1[t1]] += z
+        g1.append(n1[t1])
+        li.remove(n1[t1])
+    if g1.count(n1[t1]) > 3:
+        print("1111111",li)
+        continue
+
+    for j in li:
+        if j in n2:
+            continue
+
         else:
-            k[p[m]] = z
+            n2.append(j)
+            print("li의 값",n2,li)
+
         #o.append(k)
         print(k)
 
-    for w in range(len(p)):
-        if k:
-            continue
-
+    # for w in range(len(p)):
+    #     if k:
+    #         continue
