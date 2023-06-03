@@ -54,8 +54,8 @@ for i in range(t):
 
         z+=1
         k[n1[t1]] += z
-        g1.append(n1[t1])
-        li.remove(n1[t1])
+        g1.append(str(n1[t1]))
+        li.remove(str(n1[t1]))
     if g1.count(n1[t1]) > 3:
         print("1111111",li)
         continue
